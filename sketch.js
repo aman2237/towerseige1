@@ -77,7 +77,7 @@ function setup() {
 
   sling = new SlingShot(polygon_1.body, { x: 70, y: 90 });
 
-  Engine.run(engine);
+  Engine.update(engine);
 
 }
 
@@ -137,6 +137,6 @@ function mouseDragged() {
 }
 
 function mouseReleased() {
-  sling.fly();
+  slingShot.fly();
 }
 
